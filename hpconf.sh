@@ -2,7 +2,7 @@
 set -e
 DEBUG="false"
 CURLOPTS=" -s"
-CAPTCHA_METHOD="manual"
+CAPTCHA_METHOD="gocr"
 
 CAPTCHA_FAIL=1
 LOGIN_UID_EMPTY=2
